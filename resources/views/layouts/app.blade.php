@@ -8,14 +8,14 @@
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     <title>{{ config('app.name', 'Laravel') }}</title>
   </head>
-  <body class="font-sans antialiased text-black leading-tight flex flex-wrap justify-center">
+  <body class="font-sans antialiased text-black leading-tight flex flex-wrap justify-center mx-4">
     <div id="app" class="w-full md:w-2/3 lg:w-1/2 my-8 mx-4">
       @yield('body')
     </div>
 
     <footer class="w-full flex flex-wrap mt-16">
       <section class="w-full flex justify-center">
-        <img src="{{ asset('storage/ceo.jpg') }}" 
+        <img src="{{ asset('img/ceo.jpg') }}" 
           class="w-full md:w-1/3 lg:w-1/5" />
       </section>
 
